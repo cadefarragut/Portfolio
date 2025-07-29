@@ -1,87 +1,112 @@
 html {
 	font-size: 62.5%
 }
-
 body {
 	background-color: #F1EADA;
-	color: #fff;
-	text-align: center;
 }
+
+
 
 .banner {
-	position: fixed;
-	height: 98%;
+	height: 60%;
+	border: 4px solid;
 
-	margin-bottom: 40%;
-	border: 4px solid green;
-	
 	.profile_pic{
-		height: 400px;
-		width: 400px;
+		height: 100%;
+		width: 100%;
 		object-fit: cover;
 		border-radius: 50%;
-	}	
-}
+		margin: auto;
+	}
 
-h1 {
-	font-size: 9.2rem;
-}
-
-p {
-	font-size: 2.6rem;
-}
-
-a {
-	display: block;
-	width: fit-content;
-	border: 2px solid  #fff;
-	padding: 10px 20px;
-	margin: 20px auto 0;
-	font-size: 2.6rem;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-	
-	.wrapper-main {
-		width: 80%;
-		background-color: red;
+	a {
+		display: block;
+		width: fit-content;
+		border: 2px solid  #fff;
+		padding: 10px 20px;
+		margin: 20px auto 0;
+		font-size: 2.6rem;
 	}
 }
 
 
-@media only screen and(min-width: 601px) {
+.summary{
+	width: 70%;
+	height: 90%;
+	margin: auto;
+	padding: 10px 20px;
+	border: 4px solid blue;
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.banner{
+		border-color: red;
+		position:relative;
+		margin: 5% 17%;
+	}
 	
-	.wrapper-main {
-		width: 80%;
-		background-color: blue;
+	.summary{
+		border-color: red;
+		width: 80%
+	}
+}
+
+
+@media only screen and (min-width: 601px) {
+	.banner{
+		border-color: blue;
+		position: relative;
+		margin: 5% 17%;
+	}
+	.summary{
+		border-color: blue;
+		width: 80%
 	}
 }
 
 
 
 @media only screen and (min-width: 768px) {
-	
-	.wrapper-main {
-		width: 80%;
-		background-color: orange;
+	.banner{
+		border-color: yellow;
+		margin: 5% 17%;
+	}
+	.summary{
+		border-color: yellow;
+		width: 80%
 	}
 }
 
 @media only screen and (min-width: 992px) {
-	
-	.wrapper-main {
-		width: 80%;
-		background-color: green;
+	.banner{
+		border-color: green;
+		margin: 5% 17%;
+		
+	}
+	.summary{
+		border-color: green;
+		width: 80%
 	}
 }
 
 @media only screen and (min-width: 1200px) {
-	
-	.wrapper-main {
-		width: 80%;
-		background-color: purple;
+	.banner{
+		border-color: purple;
+		margin: 5%;
+		position: fixed;
+	}
+	.summary{
+		border-color: purple;
+		width: 80%
 	}
 }
 
