@@ -8,34 +8,35 @@ body {
 
 
 .banner {
-	height: 60%;
+	height: auto;
+	width: 20%;
 	border: 4px solid;
+	margin-left: 7%;
+	margin-top: 7%;
+	padding: 20px;
+}
 
-	.profile_pic{
-		height: 100%;
-		width: 100%;
+.profile_pic{
+		height: 400px;
+		width: 400px;
 		object-fit: cover;
 		border-radius: 50%;
+		display: block;
 		margin: auto;
-	}
-
-	a {
+}
+a {
 		display: block;
 		width: fit-content;
 		border: 2px solid  #fff;
 		padding: 10px 20px;
 		margin: 20px auto 0;
 		font-size: 2.6rem;
-	}
 }
 
 
+
 .summary{
-	width: 70%;
-	height: 90%;
-	margin: auto;
-	padding: 10px 20px;
-	border: 4px solid blue;
+	
 
 
 }
@@ -50,13 +51,10 @@ body {
 @media only screen and (max-width: 600px) {
 	.banner{
 		border-color: red;
-		position:relative;
-		margin: 5% 17%;
 	}
 	
 	.summary{
 		border-color: red;
-		width: 80%
 	}
 }
 
@@ -64,12 +62,9 @@ body {
 @media only screen and (min-width: 601px) {
 	.banner{
 		border-color: blue;
-		position: relative;
-		margin: 5% 17%;
 	}
 	.summary{
 		border-color: blue;
-		width: 80%
 	}
 }
 
@@ -78,35 +73,28 @@ body {
 @media only screen and (min-width: 768px) {
 	.banner{
 		border-color: yellow;
-		margin: 5% 17%;
 	}
 	.summary{
 		border-color: yellow;
-		width: 80%
 	}
 }
 
 @media only screen and (min-width: 992px) {
 	.banner{
 		border-color: green;
-		margin: 5% 17%;
-		
 	}
 	.summary{
 		border-color: green;
-		width: 80%
+	
 	}
 }
 
 @media only screen and (min-width: 1200px) {
 	.banner{
 		border-color: purple;
-		margin: 5%;
-		position: fixed;
 	}
 	.summary{
 		border-color: purple;
-		width: 80%
 	}
 }
 
