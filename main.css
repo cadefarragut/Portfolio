@@ -1,5 +1,10 @@
+@font-face {
+	font-family: "Nerd";
+	src: url(fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf);
+}
 html {
-	font-size: 62.5%
+	font-size: 62.5%;
+	font-family: Nerd;
 }
 body {
 	background-color: #F1EADA;
@@ -9,11 +14,11 @@ body {
 
 .banner {
 	height: auto;
-	width: 20%;
+	width: auto;
 	border: 4px solid;
-	margin-left: 7%;
-	margin-top: 7%;
+	margin: 7%;
 	padding: 20px;
+	float: left;
 }
 
 .profile_pic{
@@ -29,14 +34,14 @@ a {
 		width: fit-content;
 		border: 2px solid  #fff;
 		padding: 10px 20px;
-		margin: 20px auto 0;
+		margin: 10px auto 0;
 		font-size: 2.6rem;
 }
 
 
 
 .summary{
-	
+	border: 4px solid;
 
 
 }
@@ -51,6 +56,7 @@ a {
 @media only screen and (max-width: 600px) {
 	.banner{
 		border-color: red;
+		
 	}
 	
 	.summary{
