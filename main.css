@@ -60,6 +60,10 @@ h1{
 
 
 @media only screen and (max-width: 600px) {
+	.profile_pic{
+		height: 300px;
+		width: 300px;
+	}
 	.banner{
 		border-color: red;
 		float: none;
