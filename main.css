@@ -3,7 +3,6 @@
 	src: url(fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf);
 }
 html {
-	font-size: 62.5%;
 	font-family: Nerd;
 }
 body {
@@ -48,8 +47,8 @@ a {
 	display: flex;
 	float:right;
 }
-h1{
-	
+p{
+	color: #341C02;	
 }
 
 
@@ -77,6 +76,9 @@ h1{
 		width: auto;
 		margin: auto;
 	}
+	p{
+		font-size: 30px;
+	}
 }
 
 
@@ -92,6 +94,9 @@ h1{
 		width: auto;
 		margin: auto;
 	}
+	p{
+		font-size: 30px;
+	}
 }
 
 
@@ -105,6 +110,9 @@ h1{
 		border-color: yellow;
 		float: none;
 	}
+	p{
+		font-size: 30px;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -116,6 +124,9 @@ h1{
 	.summary{
 		border-color: green;
 		float: none;
+	}
+	p{
+		font-size: 30px;
 	}
 }
 
@@ -134,6 +145,9 @@ h1{
 		margin-top: 4%;
 		margin-left: 45%;
 	}
+	p{
+		font-size: 30px;
+	}
 }
 
 @media only screen and (min-width: 1920px) {
@@ -151,6 +165,10 @@ h1{
 		margin-top: 4%;
 		margin-left: 30%;
 	}
+	p{
+		font-size: 50px;	
+	}
+	
 }
 
 
