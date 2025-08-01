@@ -6,8 +6,16 @@
 html {
 	font-family: Nerd;
 }
+@keyframes shifty {
+	0% { background-position: 0% 50%;}
+	50%{ background-position: 100% 50%;}
+	100% { background-position: 0% 50%; }
+}
 body {
-	background:radial-gradient(circle at center, #ffffff, #f2f4f8, #e3e7ec)
+	background: linear-gradient(-45deg, #d3d7e0, #dadae9, #8a9db9, #b5c6d8);
+	background-size: 400% 400%;
+	animation: shifty 5s ease infinite;
+	
 }
 
 
