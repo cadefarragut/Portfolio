@@ -55,6 +55,12 @@ body {
 .intro{
 	color: #341C02;	
 }
+.resume{
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
 
 .title{
 	font-size: 35px;
