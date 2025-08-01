@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: "Nerd";
 	src: url(fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf);
@@ -6,7 +7,7 @@ html {
 	font-family: Nerd;
 }
 body {
-	background-color: #F1EADA;
+	background:radial-gradient(circle at center, #ffffff, #f2f4f8, #e3e7ec)
 }
 
 
@@ -28,17 +29,21 @@ body {
 		border-radius: 50%;
 		display: block;
 		margin: auto;
+		border: 2px solid;
 }
-a {
+.a1 {
 		display: block;
 		width: fit-content;
-		border: 2px solid  #fff;
 		padding: 10px 20px;
 		margin: 10px auto 0;
 		color: #341C02;
 }
-
-
+.icons{
+	text-align: center;
+	padding: 10px 20px;
+}
+.icons:hover{
+}
 
 .summary{
 	min-height: 70vh;
@@ -50,19 +55,23 @@ a {
 .intro{
 	color: #341C02;	
 }
+
 .title{
 	font-size: 35px;
 	text-align: center;
 }
 
 .experience{
-	border: 4px solid;
 	overflow: hidden;
 	min-width: 20px;
 }
 .experience_1{
 	border: 4px solid;
+	border-color: gold;
 	min-height: 400px;
+	h3{
+		padding-left: 20px;
+	}
 	p{
 		padding-left: 20px;
 	}
@@ -70,21 +79,33 @@ a {
 }
 .experience_2{
 	border: 4px solid;
+	margin-top: 5%;
 	min-height: 400px;
+	h3{
+		padding-left: 20px;
+	}
 	p{
 		padding-left: 20px
 	}
 }
 .experience_3{
 	border: 4px solid;
+	margin-top: 5%;
 	min-height: 400px;
+	h3{
+		padding-left: 20px;
+	}
 	p{
 		padding-left: 20px
 	}
 }
 .experience_4{
 	border: 4px solid;
+	margin-top: 5%;
 	min-height: 400px;
+	h3{
+		padding-left: 20px;
+	}
 	p{
 		padding-left: 20px
 	}
@@ -92,6 +113,10 @@ a {
 .experience_5{
 	border: 4px solid;
 	min-height: 400px;
+	margin-top: 5%;
+	h3{
+		padding-left: 20px;
+	}
 	p{
 		padding-left: 20px
 	}
@@ -124,7 +149,7 @@ a {
 		height: 300px;
 		width: 300px;
 	}
-	a{
+	.a1{
 		font-size: 2rem;
 	}
 	.banner{
@@ -143,6 +168,10 @@ a {
 	.intro{
 		font-size: 30px;
 	}
+	.icons{
+		font-size: 60px;
+	}
+
 }
 
 
@@ -152,7 +181,7 @@ a {
 		float: none;
 		margin: auto;
 	}
-	a{
+	.a1{
 		font-size: 2rem;
 	}
 	.summary{
@@ -164,6 +193,10 @@ a {
 	.intro{
 		font-size: 30px;
 	}
+	.icons{
+		font-size: 60px;
+	}
+
 }
 
 
@@ -173,7 +206,7 @@ a {
 		border-color: yellow;
 		float: none;
 	}
-	a{
+	.a1{
 		font-size: 2rem;
 	}
 	.summary{
@@ -183,6 +216,11 @@ a {
 	.intro{
 		font-size: 30px;
 	}
+	.icons{
+		font-size: 60px;
+	}
+
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -191,7 +229,7 @@ a {
 		float: none;
 		
 	}
-	a{
+	.a1{
 		font-size: 2rem;
 	}
 	.summary{
@@ -204,6 +242,11 @@ a {
 	.experience{
 
 	}
+	.icons{
+		font-size: 60px;
+	}
+	
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -214,7 +257,7 @@ a {
 		margin-top: 4%;
 		position: fixed;
 	}
-	a{
+	.a1{
 		font-size: 2rem;
 	}
 	.summary{
@@ -235,6 +278,10 @@ a {
 		margin-left: 45%;
 		margin-right: 15%;
 	}
+	.icons{
+		font-size: 60px;
+	}
+
 }
 
 @media only screen and (min-width: 1920px) {
@@ -245,7 +292,7 @@ a {
 		margin-top: 4%;
 		position: fixed;
 	}
-	a{
+	.a1{
 		font-size: 2.6rem;
 	}
 	.summary{
@@ -267,6 +314,9 @@ a {
 		margin-left: 30%;
 		margin-right: 15%;
 
+	}
+	.icons{
+		font-size: 70px;
 	}
 	
 }
