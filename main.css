@@ -50,8 +50,7 @@ body {
 	text-align: center;
 	padding: 10px 20px;
 }
-.icons:hover{
-}
+
 
 .summary{
 	min-height: 70vh;
@@ -270,9 +269,6 @@ body {
 	}
 	.intro{
 		font-size: 30px;
-	}
-	.experience{
-
 	}
 	.icons{
 		font-size: 60px;
