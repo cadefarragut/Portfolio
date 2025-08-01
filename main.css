@@ -83,11 +83,16 @@ body {
 	border: 4px solid;
 	border-color: gold;
 	min-height: 400px;
+	background-color: grey;
+	border-style: groove;
+	border-radius: 10px;
 	h3{
 		padding-left: 20px;
+		color: white;
 	}
 	p{
 		padding-left: 20px;
+		color: white;
 	}
 
 }
