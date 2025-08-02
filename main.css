@@ -330,13 +330,14 @@ body {
 		float: left;
 		font-size: 70%;
 		margin: auto;
+		font-size: 1vh;
 	}
 	.experience_2{
 		max-height: 400px;
 		min-height: 400px;
 		width: 48%;
 		float: right;
-		font-size: 70%;
+		font-size: 1vh;
 		margin: auto;
 	}
 	.experience_3{
@@ -344,7 +345,7 @@ body {
 		min-height: 400px;
 		width: 48%;
 		float: left;
-		font-size: 70%;
+		font-size: 1vh;
 		margin: 5% auto;
 	}
 	.experience_4{
@@ -352,7 +353,7 @@ body {
 		min-height: 400px;
 		width: 48%;
 		float: right;
-		font-size: 70%;
+		font-size: 1vh;
 		margin: 5% auto;
 	}
 	.projects{
