@@ -68,10 +68,11 @@ body {
 	.language-icons{
 		display: flex;
 		flex-direction: row;
+		margin-left: auto;
+		margin-right: auto;
 		svg, img{
-			width: 80px;
-			margin-left: auto;
-			margin-right: auto;
+			width: 70px;
+			padding: 1%;
 		}
 	}
 
@@ -187,7 +188,7 @@ body {
 		margin: auto;
 		
 	}
-	
+
 	.summary{
 		border-color: red;
 		float: none;
