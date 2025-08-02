@@ -77,27 +77,25 @@ body {
 	
 }
 .experience_1{
-	border: 4px solid;
+	border: 2px solid;
 	border-color: grey;
-	min-height: 400px;
 	background-color: #D4D4D4;
 	border-style: groove;
 	border-radius: 10px;
+
 	h3{
 		padding-left: 20px;
 		
 	}
 	p{
 		padding-left: 20px;
-		
+		padding-right: 30px;
 	}
 
 }
 .experience_2{
-	border: 4px solid;
+	border: 2px solid;
 	border-color: grey;
-	margin-top: 5%;
-	min-height: 400px;
 	background-color: #D4D4D4;
 	border-style: groove;
 	border-radius: 10px;
@@ -105,14 +103,13 @@ body {
 		padding-left: 20px;
 	}
 	p{
-		padding-left: 20px
+		padding-left: 20px;
 	}
 }
 .experience_3{
-	border: 4px solid;
+	border: 2px solid;
 	border-color: grey;
 	margin-top: 5%;
-	min-height: 400px;
 	background-color: #D4D4D4;
 	border-style: groove;
 	border-radius: 10px;
@@ -120,28 +117,12 @@ body {
 		padding-left: 20px;
 	}
 	p{
-		padding-left: 20px
+		padding-left: 20px;
 	}
 }
 .experience_4{
-	border: 4px solid;
+	border: 2px solid;
 	border-color: grey;
-	margin-top: 5%;
-	min-height: 400px;
-	background-color: #D4D4D4;
-	border-style: groove;
-	border-radius: 10px;
-	h3{
-		padding-left: 20px;
-	}
-	p{
-		padding-left: 20px
-	}
-}
-.experience_5{
-	border: 4px solid;
-	border-color: grey;
-	min-height: 400px;
 	margin-top: 5%;
 	background-color: #D4D4D4;
 	border-style: groove;
@@ -150,7 +131,7 @@ body {
 		padding-left: 20px;
 	}
 	p{
-		padding-left: 20px
+		padding-left: 20px;
 	}
 }
 
@@ -165,8 +146,11 @@ body {
 .project_1{
 	border: 4px solid;
 	min-height: 400px;
+	h3{
+		padding-left: 20px;
+	}
 	p{
-		padding-left: 20px
+		padding-left: 20px;
 	}
 }
 
@@ -202,6 +186,18 @@ body {
 	.icons{
 		font-size: 60px;
 	}
+	.experience_1{
+		margin: 5%;
+	}
+	.experience_2{
+		margin: 5%;
+	}
+	.experience_3{
+		margin: 5%;
+	}
+	.experience_4{
+		margin: 5%;
+	}
 
 }
 
@@ -226,6 +222,18 @@ body {
 	}
 	.icons{
 		font-size: 60px;
+	}
+	.experience_1{
+		margin: 5%;
+	}
+	.experience_2{
+		margin: 5%;
+	}
+	.experience_3{
+		margin: 5%;
+	}
+	.experience_4{
+		margin: 5%;
 	}
 
 }
@@ -252,6 +260,7 @@ body {
 	}
 
 
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -273,9 +282,21 @@ body {
 	.icons{
 		font-size: 60px;
 	}
-	
+	.experience_1{
+		margin: 5%;
+	}
+	.experience_2{
+		margin: 5%;
+	}
+	.experience_3{
+		margin: 5%;
+	}
+	.experience_4{
+		margin: 5%;
+	}
 
 }
+
 
 @media only screen and (min-width: 1200px) {
 	.banner{
@@ -301,6 +322,101 @@ body {
 	.experience{
 		margin-left: 45%;
 		margin-right: 15%;
+	}
+	.experience_1{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: left;
+		font-size: 70%;
+		margin: auto;
+	}
+	.experience_2{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: right;
+		font-size: 70%;
+		margin: auto;
+	}
+	.experience_3{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: left;
+		font-size: 70%;
+		margin: 5% auto;
+	}
+	.experience_4{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: right;
+		font-size: 70%;
+		margin: 5% auto;
+	}
+	.projects{
+		margin-left: 45%;
+		margin-right: 15%;
+	}
+	.icons{
+		font-size: 60px;
+	}
+
+}
+
+@media only screen and (min-width: 1560px) {
+	.banner{
+		border-color: pink;
+		float: left;
+		margin-left: 7%;
+		margin-top: 4%;
+		position: fixed;
+	}
+	.a1{
+		font-size: 2rem;
+	}
+	.summary{
+		border-color: purple;
+		float: right;
+		margin-right: 15%;
+		margin-top: 4%;
+		margin-left: 45%;
+	}
+	.intro{
+		font-size: 30px;
+	}
+	.experience{
+		margin-left: 45%;
+		margin-right: 15%;
+	}
+	.experience_1{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: left;
+		font-size: 80%;
+	}
+	.experience_2{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: right;
+		font-size: 80%;
+	}
+	.experience_3{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: left;
+		font-size: 80%;
+	}
+	.experience_4{
+		max-height: 400px;
+		min-height: 400px;
+		width: 48%;
+		float: right;
+		font-size: 80%;
 	}
 	.projects{
 		margin-left: 45%;
@@ -338,6 +454,35 @@ body {
 		margin-right: 15%;
 
 	}
+	.experience_1{
+		max-height: 400px;
+		min-height: 400px;
+		width: 45%;
+		float: left;
+		font-size: 100%;
+	}
+	.experience_2{
+		width: 45%;
+		float: right;
+		max-height: 400px;
+		min-height: 400px;
+		font-size: 100%;
+	}
+	.experience_3{
+		max-height: 400px;
+		min-height: 400px;
+		width: 45%;
+		float: left;
+		font-size: 100%;
+	}
+	.experience_4{
+		max-height: 400px;
+		min-height: 400px;
+		width: 45%;
+		float: right;
+		font-size: 100%;
+	}
+
 	.projects{
 		margin-left: 30%;
 		margin-right: 15%;
